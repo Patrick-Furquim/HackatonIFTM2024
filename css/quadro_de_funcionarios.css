@@ -1,0 +1,74 @@
+:root {
+    --color_1: #019640;
+    --color_2: #444444;
+    --color_3: #FFFFFF;
+    --color_4: #ACA7A8;
+    --color_5: #E01B30;
+}
+
+#plano {
+    width: 900px;
+    height: 600px;
+    background-color: var(--color_3);
+    margin-top: 50px;
+    border-radius: 50px;
+    padding: 50px 80px;
+    text-align: center;
+    position: center;
+    padding-left: 100px;
+}
+
+#titulo_plano {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+
+.caixa_funcionario {
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+    width: 800px;
+    padding: 10px 100px;
+    border: none;
+    border-bottom: var(--color_1) solid 5px;
+    color: var(--color_2);
+    margin-left: 43px;
+}
+
+.lado_dir {
+    display: flex;
+    flex-direction: inline;
+    gap: 20px;
+    align-items: center;
+}
+
+.lado_dir button {
+    align-items: left;
+    
+}
+
+.lado_esq {
+    color: var(--color_1)
+}
+
+.user {
+    font-size: 60px;
+}
+
+#plano {
+    display: flex;
+    flex-direction: column;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.pessoa{
+    font-size: 75px;
+
+}

@@ -1,0 +1,85 @@
+:root {
+    --color_1: #019640;
+    --color_2: #444444;
+    --color_3: #FFFFFF;
+    --color_4: #ACA7A8;
+    --color_5: #E01B30;
+}
+
+main {
+    position: relative;
+    margin-left: 200px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.botao_tela_inicial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 50px 0px;
+    border: 2px solid var(--color_3);
+    border-radius: 50px;
+    background-color: var(--color_2);
+    color: var(--color_2);
+    font-size: 22px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    width: 400px;
+    height: 100px;
+    color: var(--color_3);
+}
+
+.botao_tela_inicial:hover {
+    background-color: var(--color_1);
+    color: var(--color_3);
+}
+
+.botao_tela_inicial p {
+    margin: 0;
+}
+
+.botao_tela_inicial i {
+    margin-left: 10px;
+}
+
+.botao_tela_inicial p {
+    justify-content: left;
+}
+
+#botao_principal {
+    background-color: var(--color_1);
+}
+
+#botao_principal_tela_inicial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 50px 0px;
+    border: 2px solid var(--color_3);
+    border-radius: 50px;
+    background-color: var(--color_1);
+    color: var(--color_2);
+    font-size: 22px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    width: 400px;
+    height: 100px;
+    color: var(--color_3);
+}
+
+#botao_principal_tela_inicial:hover {
+    background-color: var(--color_5);
+    color: var(--color_3);
+}
+
+
+

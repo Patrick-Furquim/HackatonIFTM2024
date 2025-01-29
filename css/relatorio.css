@@ -1,0 +1,37 @@
+:root {
+    --color_1: #019640;
+    --color_2: #444444;
+    --color_3: #FFFFFF;
+    --color_4: #ACA7A8;
+    --color_5: #E01B30;
+}
+
+#relatorio {
+    width: 900px;
+    height: 450px;
+    background-color: var(--color_3);
+    margin-top: 50px;
+    border-radius: 50px;
+    padding: 50px 80px;
+    text-align: left;
+}
+
+#titulo_relatorio {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+
+#texto_com_grafico {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#chart {
+    font-size: 80px;
+    color: var(--color_1);
+}

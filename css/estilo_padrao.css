@@ -1,0 +1,130 @@
+:root {
+    --color_1: #019640;
+    --color_2: #444444;
+    --color_3: #FFFFFF;
+    --color_4: #ACA7A8;
+    --color_5: #E01B30;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#logo_iftm_menu {
+    width: 60px;
+    cursor: pointer;
+}
+
+#menu_lateral {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--color_3);
+    border-right: var(--color_1) solid 5px;
+    padding: 20px 0;
+}
+
+#menu_lateral a {
+    font-size: 40px;
+    color: var(--color_2);
+    transition: 0.3s;
+}
+
+#menu_lateral a:hover {
+    color: var(--color_1);
+}
+
+#menu_superior {
+    position: relative;
+    margin-left: 120px;
+    background-color: var(--color_3);
+    padding: 25px 30px;
+    display: flex;
+    border-left: var(--color_1) solid 5px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#menu_superior_esq {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+#menu_superior_esq i {
+    font-size: 36px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#menu_superior_esq i {
+    color: var(--color_1);
+}
+
+#menu_superior_dir {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    gap: 20px; 
+    margin-right: 70px;
+}
+
+#menu_superior p {
+    margin: 0;
+}
+
+.foto_perfil_usuario {
+    width: 120px;
+    height: 120px;
+    border-radius: 107px;
+}
+
+.saudacao_padrao {
+    font-size: 24px;
+    font-weight:600;
+}
+
+.caixa_boas_vindas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    height: 125px;
+    background-color: var(--color_3);
+    padding: 20px;
+    margin-top: 50px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.caixa_metricas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    height: 200px;
+    background-color: var(--color_3);
+    padding: 20px;
+    margin-top: 50px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.caixa_metricas:hover{
+    background-color: var(--color_4);
+    cursor: pointer;
+
+}
