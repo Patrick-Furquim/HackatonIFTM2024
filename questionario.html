@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionario</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tela_inicial_styles.css">
+    <link rel="stylesheet" href="css/estilo_padrao.css">
+    <link rel="stylesheet" href="css/questionario.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="menu_lateral">
+        <a><img id="logo_iftm_menu" class="logo_iftm_menuFunc" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Instituto_Federal_do_Tri%C3%A2ngulo_Mineiro_-_Marca_Vertical_2015.svg/640px-Instituto_Federal_do_Tri%C3%A2ngulo_Mineiro_-_Marca_Vertical_2015.svg.png"></a>
+        <a><i class="bi bi-headset"></i></a>
+        <a><i class="bi bi-calendar3"></i></a>
+        <a><i class="bi bi-book-half"></i></a>
+        <a><i class="bi bi-envelope-fill"></i></a>
+        <a><i class="bi bi-gear-fill"></i></a>
+    </div>
+
+    <header id="menu_superior">
+        <div id="menu_superior_esq">
+            <a href="tela_inicial.html"><i class="bi bi-arrow-left"></i></a>
+            <p>Instituto Federal do Triângulo Mineiro</p>
+        </div>
+        <div id="menu_superior_dir">
+            <p>Funcionário</p>
+            <p><i class="bi bi-person-vcard"></i></p>
+        </div>
+    </header>
+
+    
+    <main>
+       <div id="questionario">
+            <p id="titulo_questionario">Questionário</p>
+            <!-- Pergunta 1 -->
+    <div id="pergunta1" class="pergunta">
+        <p>Pergunta 1: Você considera suas habilidades de comunicação um ponto forte no seu perfil profissional?</p>
+        <select id="resposta1">
+            <option value="">Selecione</option>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+        <button id="botao1"  class="botaoProximo">Próxima</button>
+    </div>
+
+    <!-- Pergunta 2A -->
+    <div id="pergunta2a" class="pergunta">
+        <p>Pergunta 2: Você se sente confortável em assumir papéis de liderança em que a comunicação seja fundamental?</p>
+        <select id="resposta2a">
+            <option value="">Selecione</option>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+        <button id="botao2a" class="botaoProximo">Próxima</button>
+    </div>
+
+    <!-- Pergunta 2B -->
+    <div id="pergunta2b" class="pergunta">
+        <p>Pergunta 2: Você pensa que é necessário a habilidade da comunicação?</p>
+        <select id="resposta2b">
+            <option value="">Selecione</option>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+        <button id="botao2b" class="botaoProximo">Próxima</button>
+    </div>
+
+    <!-- Pergunta 3A1 -->
+    <div id="pergunta3a1" class="pergunta">
+        <p>Pergunta 3: Você já conduziu com sucesso negociações ou apresentações complexas no seu ambiente de trabalho?</p>
+        <select id="resposta3a1">
+            <option value="">Selecione</option>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+        <button id="finalizar3a1" class="botaoProximo">Finalizar</button>
+    </div>
+
+    <!-- Pergunta 3A2 -->
+    <div id="pergunta3a2" class="pergunta">
+        <p>Pergunta 3: Você percebe os desafios de comunicação e liderança como obstáculos para o seu crescimento profissional?</p>
+        <select id="resposta3a2">
+            <option value="">Selecione</option>
+            <option value="equipe">Sim</option>
+            <option value="individual">Não</option>
+        </select>
+        <button id="finalizar3a2" class="botaoProximo finalizar">Finalizar</button>
+    </div>
+
+    <!-- Pergunta 3B1 -->
+    <div id="pergunta3b1" class="pergunta">
+        <p>Pergunta 3: Você tem interesse em aprender a liderar?</p>
+        <select id="resposta3b1">
+            <option value="">Selecione</option>
+            <option value="hardware">Sim</option>
+            <option value="software">Não</option>
+        </select>
+        <button id="finalizar3b1" class="botaoProximo finalizar">Finalizar</button>
+    </div>
+
+    <!-- Pergunta 3B2 -->
+    <div id="pergunta3b2" class="pergunta">
+        <p>Pergunta 3: Você se sente confortável em ambientes com muitas pessoas?</p>
+        <select id="resposta3b2">
+            <option value="">Selecione</option>
+            <option value="falta_de_tempo">Sim</option>
+            <option value="desinteresse">Não</option>
+        </select>
+        <button id="finalizar3b2" class="botaoProximo finalizar">Finalizar</button>
+    </div>
+
+    <div id="resposta"></div>
+
+    </main>
+</body>
+</html>
